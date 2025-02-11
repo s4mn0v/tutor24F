@@ -96,6 +96,12 @@ export default defineNuxtConfig({
     clientFallback: true,
   },
   nitro: {
+    storage: {
+      data: {
+        driver: 'vercelKV'
+        /* Vercel KV driver options */
+      }
+    },
     compressPublicAssets: {
       gzip: true,
       brotli: true,
