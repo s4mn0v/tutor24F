@@ -1,0 +1,2 @@
+import{f as n}from"./entry-B1wW15I9.mjs";function e(){const t=n("notifications",(()=>[]));return{add:function(n){const i={id:(new Date).getTime().toString(),...n};return-1===t.value.findIndex((n=>n.id===i.id))&&t.value.push(i),i},remove:function(n){t.value=t.value.filter((t=>t.id!==n))},update:function(n,i){const u=t.value.findIndex((t=>t.id===n));if(-1!==u){const n=t.value[u];t.value.splice(u,1,{...n,...i})}},clear:function(){t.value=[]}}}export{e};
+//# sourceMappingURL=useToast-B0UDgBav.mjs.map

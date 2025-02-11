@@ -1,0 +1,1 @@
+import o from"./BN2OBxPi.js";import{u as r}from"./DxHkahMw.js";import{c as t,o as n,I as s}from"./hFqZFfy7.js";const i={__name:"ButtonLogOut",setup(i){const{logout:e}=r();return(r,i)=>{const u=o;return n(),t(u,{onClick:s(e),icon:"i-heroicons-arrow-left-circle",size:"md",color:"red",ui:{rounded:"rounded-full"},variant:"solid"},null,8,["onClick"])}}};export{i as _};

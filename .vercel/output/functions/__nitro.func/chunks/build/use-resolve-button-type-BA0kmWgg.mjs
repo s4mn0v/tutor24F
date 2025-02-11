@@ -1,0 +1,2 @@
+import{ref as t,onMounted as e,watchEffect as u}from"vue";import{u as n}from"./keyboard-CrgOGGit.mjs";function o(t,e){if(t)return t;let u=null!=e?e:"button";return"string"==typeof u&&"button"===u.toLowerCase()?"button":void 0}function r(a,l){let i=t(o(a.value.type,a.value.as));return e((()=>{i.value=o(a.value.type,a.value.as)})),u((()=>{var t;i.value||n(l)&&n(l)instanceof HTMLButtonElement&&(null==(t=n(l))||!t.hasAttribute("type"))&&(i.value="button")})),i}export{r};
+//# sourceMappingURL=use-resolve-button-type-BA0kmWgg.mjs.map

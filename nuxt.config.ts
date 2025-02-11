@@ -102,6 +102,9 @@ export default defineNuxtConfig({
         /* Vercel KV driver options */
       }
     },
+    externals: {
+      inline: ['unenv'],
+    },
     compressPublicAssets: {
       gzip: true,
       brotli: true,
@@ -125,6 +128,7 @@ export default defineNuxtConfig({
       // Student
       "/api/news": { swr: 1800 },
     },
+    preset: 'vercel',
   },
   // Añadir configuración de TypeScript
   typescript: {
