@@ -137,7 +137,7 @@ export default ({
   },
   // Configuración adicional para Gemini
   build: {
-    transpile: ["@google/generative-ai", "cookie", "mammoth"],
+    transpile: ["@google/generative-ai", "cookie", "mammoth", "underscore"],
   },
   tailwindcss: {
     configPath: "~/tailwind.config.ts",
