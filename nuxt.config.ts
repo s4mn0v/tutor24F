@@ -1,5 +1,5 @@
 import { theme } from "#tailwind-config";
-export default defineNuxtConfig({
+export default ({
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
   features: {
@@ -137,7 +137,7 @@ export default defineNuxtConfig({
   },
   // Configuración adicional para Gemini
   build: {
-    transpile: ["@google/generative-ai", "cookie"],
+    transpile: ["@google/generative-ai", "cookie", "mammoth"],
   },
   tailwindcss: {
     configPath: "~/tailwind.config.ts",
