@@ -70,10 +70,10 @@ export default ({
       cssMinify: "esbuild",
       minify: "terser",
       terserOptions: {
-        compress: {
-          drop_console: process.env.NODE_ENV === "production",
-          drop_debugger: process.env.NODE_ENV === "production",
-        },
+        // compress: {
+        //   drop_console: process.env.NODE_ENV === "production",
+        //   drop_debugger: process.env.NODE_ENV === "production",
+        // },
         format: {
           comments: false, // Eliminar todos los comentarios
         },
@@ -103,7 +103,7 @@ export default ({
       }
     },
     externals: {
-      inline: ['unenv'],
+      inline: ['unenv', 'underscore'],
     },
     compressPublicAssets: {
       gzip: true,
