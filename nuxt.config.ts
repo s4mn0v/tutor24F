@@ -49,17 +49,6 @@ export default ({
       apiBase: process.env.NUXT_PUBLIC_API_BASE || "/api",
     },
   },
-  app: {
-    head: {
-      link: [
-        {
-          rel: "preload",
-          href: "/_nuxt/@nuxt/ui-templates/dist/templates.min.css",
-          as: "style",
-        },
-      ],
-    },
-  },
   colorMode: {
     preference: "system",
     fallback: "light",
