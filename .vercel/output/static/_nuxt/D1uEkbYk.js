@@ -1,1 +1,0 @@
-import{_ as s,c as t,o as a,w as e,a as r,b as n,d as o,e as i}from"./hFqZFfy7.js";import"./CkVD2Uqn.js";import".prisma/client/index-browser";const d=s({},[["render",function(s,d){const m=o,u=r;return a(),t(u,{name:"student"},{title:e((()=>d[0]||(d[0]=[i("Estudiante")]))),default:e((()=>[n(m)])),_:1})}]]);export{d as default};

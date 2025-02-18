@@ -1,0 +1,1 @@
+import{_ as o,c as s,o as r,w as t,q as a,e}from"./y4QvXspP.js";import"./CGY6ERjo.js";import".prisma/client/index-browser";const n=o({},[["render",function(o,n){const i=a;return r(),s(i,{to:"/login"},{default:t((()=>n[0]||(n[0]=[e("Login")]))),_:1})}]]);export{n as default};

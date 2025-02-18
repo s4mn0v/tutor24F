@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as s,w as t,a as r,b as o,d as n,e as i}from"./y4QvXspP.js";import"./CGY6ERjo.js";import".prisma/client/index-browser";const c=e({},[["render",function(e,c){const m=n,d=r;return s(),a(d,{name:"teacher"},{title:t((()=>c[0]||(c[0]=[i("Docente")]))),default:t((()=>[o(m)])),_:1})}]]);export{c as default};
